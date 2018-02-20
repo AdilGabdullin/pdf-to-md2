@@ -1,5 +1,5 @@
 ### IWL TCP Test Suite
-#### Testing the Transmission Control Protocol with
+#### Testing the Transmission Control Protocol with Maxwell Pro
 Design and quality assurance engineer use the Maxwell Pro TCP Test Suite to
 find and fix bugs in their TCP stack or engine.  The tests help ensure a sufficiently
 robust TCP stack or engine, not vulnerable to the wide range of attacks in today’s

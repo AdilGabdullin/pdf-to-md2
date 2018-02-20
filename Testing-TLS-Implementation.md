@@ -151,18 +151,18 @@ The Maxwell Pro TLS Test Suite references the RFCs that correlate to each test a
 IETF documents detail the Internet standards and best current practices that can point the user
 toward abetter understanding of the problem.
 #### Sample Test Documentation...
-##### PURPOSE OF THE TEST
+##### **PURPOSE OF THE TEST**
 Make the length field of the first extension in ClientHello.extensions invalid.
-##### WHAT THE TEST DOES
+##### **WHAT THE TEST DOES**
 The length field of the first extension in the ClientHello.extensions list is set to 2^15-1, which will
 exceed the Handshake.length field.
-##### ASSUMPTIONS
+##### **ASSUMPTIONS**
 None.
-##### EXPECTED OUTCOME
+##### **EXPECTED OUTCOME**
 DUT should issue an illegal parameter alert and must close the connection.
-##### RELEVANT TRAFFIC SOURCES
+##### **RELEVANT TRAFFIC SOURCES**
 tls.v4, tls.v6
-##### REFERENCES
+##### **REFERENCES**
 RFC 5246, Page 37, ‘struct ... Handshake’, page 41, ‘extensions’.’
 ### Real World Application
 #### Application 1: Maxwell Pro discovered SSL
